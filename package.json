@@ -5,7 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "test": "npm run test",
-    "start": "sudo nodemon --exec ts-node index.ts"
+    "start": "sudo PASSWORD='admin' nodemon --exec ts-node index.ts"
   },
   "keywords": [
     "Nodejs",
