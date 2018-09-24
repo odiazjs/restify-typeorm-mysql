@@ -1,0 +1,30 @@
+{
+  "name": "restify-typeorm",
+  "version": "1.0.0",
+  "description": "A Nodejs Web Api application using Typeorm and Restify.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npm run test",
+    "start": "sudo nodemon --exec ts-node index.ts"
+  },
+  "keywords": [
+    "Nodejs",
+    "Restify",
+    "Typeorm"
+  ],
+  "author": "odiaz.dw@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@types/es6-promise": "^3.3.0",
+    "@types/restify": "^7.2.4",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.4",
+    "restify": "^7.2.1",
+    "restify-cors-middleware": "^1.1.1",
+    "rimraf": "^2.6.2",
+    "ts-node": "^7.0.1",
+    "typeorm": "^0.2.7",
+    "typescript": "^3.0.3",
+    "typings": "^2.1.1"
+  }
+}
